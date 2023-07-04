@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <h1 class="page-text">Tip Calculator</h1>
+            <p class="page-text page-content">Enter the bill amount and tip percentage to calculate the total</p>
+            <label class="page-text page-content">Bill amount: </label>
+            <input id="bill-amount" class="page-content full-w-comp" type="number">
+            <label class="page-text page-content">Tip percentage: </label>
+            <input id="tip-percentage" class="page-content full-w-comp" type="number">
+            <button class="page-content full-w-comp">CALCULATE</button>
+            <label class="page-text page-content ">Total: <span></span></label>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script type="text/javascript" src="./index.js"></script>
+    
+</body>
+</html>
