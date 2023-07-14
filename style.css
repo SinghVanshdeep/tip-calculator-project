@@ -75,6 +75,6 @@ button{
 
 @media only screen and (max-width: 768px){
 	.full-w-comp{
-		width: 95%;
+		align-self: center;
 	}
 }
